@@ -12,9 +12,10 @@ typedef struct s_game
 {
 	void	*mlx;
 	void	*win;
-	double	posX, posY;
-	double	dirX, dirY;
-	double	planeX, planeY;
+	char	*addr;
+	int		bits_per_pixel;
+	int		line_length;
+	int		endian;
 }		t_game;
 
 #endif
