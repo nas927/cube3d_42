@@ -12,10 +12,15 @@ typedef struct s_game
 {
 	void	*mlx;
 	void	*win;
+}		t_game;
+
+typedef struct	s_data
+{
+	void	*img;
 	char	*addr;
 	int		bits_per_pixel;
 	int		line_length;
 	int		endian;
-}		t_game;
+}		t_data;
 
 #endif
