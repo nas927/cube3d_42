@@ -3,7 +3,7 @@ NAME = prog
 
 # Compilateur + options
 CC = gcc
-CFLAGS = -Wall -Wextra -I/usr/include -Iminilibx-linux -Iheaders -O3
+CFLAGS = -Wall -Wextra -g -I/usr/include -Iminilibx-linux -Iheaders -O3
 
 # Dossiers
 SRC_DIR = src

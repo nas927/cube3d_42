@@ -1,4 +1,5 @@
 Understand raycasting : https://harm-smits.github.io/42docs/projects/cub3d
+
 i am on kali linux wsl https://www.kali.org/get-kali/#kali-wsl
 
 # prerequise
